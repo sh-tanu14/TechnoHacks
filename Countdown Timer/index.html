@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet"href="index.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="grad">
+    <h1>COUNTDOWN TIMER</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Enter Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="date" id="date" ></td>
+            </tr>
+            <thead>
+                <tr>
+                    <th>Enter Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="time" id="time" ></td>
+                </tr>
+            </tbody>
+        </tbody>
+    </table>
+    <button class="start">Start</button>
+    <button class="stop">Stop</button>
+    <button class="reset">Reset</button>
+
+    <div class="countdown">
+        <div>
+            <p class="heading">HOURS</p>
+            <div class="time" id="countdown-hours">0</div>
+        </div>
+        <div>
+            <P class="heading">MINUTES</P>
+            <div class="time" id="countdown-minutes">0</div>
+
+        </div>
+        <div>
+            <P class="heading">SECONDS</P>
+            <div class="time" id="countdown-seconds">0</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
